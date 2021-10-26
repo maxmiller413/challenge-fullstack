@@ -1,0 +1,8 @@
+query {
+  events {
+    id
+    title
+    start
+    duration
+  }
+}
