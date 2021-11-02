@@ -134,3 +134,8 @@ Learn more about some tools:
 - [Docker](https://docker.com/)
 - [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
 - [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+
+## Question?
+
+If you have any questions, do not hesitate at all to ask (martin@peek.com).
