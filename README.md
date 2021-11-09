@@ -107,6 +107,11 @@ You will need the following things properly installed on your computer.
 **Code Generators**
 Make use of the many generators for code, try `ember help generate` for more details
 
+## How to submit your code
+
+You can fork our repo and create your own branch and send us a link to it. Please make sure visibility is set to public so we can access that link.
+You can also submit a zip files with the code challenge.
+
 ## Learn more
 
 Learn more about Phoenix/Elixir:
