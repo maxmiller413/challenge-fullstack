@@ -28,7 +28,7 @@ defmodule PeekWeb.Schema.Schema do
     field :duration, non_null(:integer)
     field :title, non_null(:string)
 
-    field :bookings, list_of(non_null(:booking)), resolve: &BookingResolver.get_bookings/3
+    field :bookings, non_null(list_of(non_null(:booking))), resolve: &BookingResolver.get_bookings/3
   end
 
   #

@@ -13,7 +13,7 @@ defmodule Peek.Events do
 
   ## Examples
 
-      iex> list_uvents()
+      iex> list_events()
       [%Event{}, ...]
 
   """

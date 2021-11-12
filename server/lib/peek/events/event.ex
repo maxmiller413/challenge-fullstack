@@ -5,7 +5,7 @@ defmodule Peek.Events.Event do
   use Ecto.Schema
   import Ecto.Changeset
 
-  schema "uvents" do
+  schema "peek_events" do
     field(:duration, :integer)
     field(:start, :naive_datetime)
     field(:title, :string)

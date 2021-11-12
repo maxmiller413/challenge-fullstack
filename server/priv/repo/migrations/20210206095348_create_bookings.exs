@@ -5,7 +5,7 @@ defmodule Calevents.Repo.Migrations.CreateBookings do
     create table(:bookings) do
       add :first_name, :string
       add :last_name, :string
-      add :event_id, references(:uvents, on_delete: :nothing)
+      add :event_id, references(:peek_events, on_delete: :nothing)
       
       timestamps()
     end
