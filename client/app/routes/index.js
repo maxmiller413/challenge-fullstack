@@ -6,9 +6,10 @@ export default class IndexRoute extends Route {
   apolloService
 
   beforeModel () {}
-
+// Even need this since have calendar.js?
   async model (params) {
     const model = await this.apolloService.fetchAllEvents()
+    // console.log(model)
     return model
   }
 }

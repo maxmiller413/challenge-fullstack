@@ -1,10 +1,11 @@
 {{page-title 'Index'}}
-<div>
-  <h2>
-    Welcome!
-  </h2>
-  {{#each @model as |item|}}
-    {{item.id}}-{{item.title}}-{{item.start}}<br />
-  {{/each}}
+
+<div class="section">
+  <h2> Welcome to Denver Wine Tours! </h2>
+{{!-- Moved to calendar.hbs + Added LinkTo --}}
+  <LinkTo @route='calendar'> 
+    Click here to book your tour!
+  </LinkTo>
 </div>
+
 {{outlet}}

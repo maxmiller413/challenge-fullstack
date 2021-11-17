@@ -1,0 +1,44 @@
+{{page-title "Calendar"}}
+
+<h2>WINE TOURS</h2>
+    <div class="calendar-container">
+      <div class="timings">
+        <div> <span> 9:00 </span> AM </div>
+          <div> 9:30 </div>
+        <div> <span> 10:00</span> AM </div>
+          <div> 10:30 </div>
+        <div> <span> 11:00</span> AM </div>
+          <div> 11:30 </div>
+        <div> <span> 12:00</span> PM </div>
+          <div> 12:30 </div>
+        <div> <span> 1:00</span> PM </div>
+          <div> 1:30 </div>
+        <div> <span> 2:00</span> PM </div>
+          <div> 2:30 </div>
+        <div> <span> 3:00</span> PM </div>
+          <div> 3:30 </div>
+        <div> <span> 4:00</span> PM </div>
+          <div> 4:30 </div>
+        <div> <span> 5:00</span> PM </div>
+          <div> 5:30 </div>
+        <div> <span> 6:00</span> PM </div>
+          <div> 6:30 </div>
+        <div> <span> 7:00</span> PM </div>
+          <div> 7:30 </div>
+        <div> <span> 8:00</span> PM </div>
+          <div> 8:30 </div>
+        <div> <span> 9:00</span> PM </div>
+    </div>
+    <div class="calendar-day-container">
+      {{#each-in @model as |key events|}}
+        <div class="calendar-day">
+          <h3>
+            {{key}}
+          </h3>
+          {{!-- events next --}}
+        </div>
+      {{/each-in}}
+    </div>
+  </div>
+
+{{outlet}}

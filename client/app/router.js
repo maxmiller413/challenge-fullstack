@@ -6,4 +6,7 @@ export default class Router extends EmberRouter {
   rootURL = config.rootURL
 }
 
-Router.map(function () {})
+Router.map(function () {
+  // Created calendar route: ember g route calendar
+  this.route('calendar');
+})

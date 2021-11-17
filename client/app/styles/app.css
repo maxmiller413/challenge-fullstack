@@ -31,6 +31,7 @@ button {
   font-family: 'Lato', 'Open Sans', 'Helvetica Neue', 'Segoe UI', Helvetica,
     Arial, sans-serif;
   line-height: 1.5;
+  
 }
 
 body {
@@ -483,4 +484,28 @@ p {
 
 .article-no-bg {
   background-color: white !important;
+}
+
+.calendar-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.timings {
+  display: flex;
+  flex-direction: column;
+}
+
+.calendar-day-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.calendar-day {
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+  margin: 15px;
+  flex-direction: column;
 }
